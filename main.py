@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Call
 import os
 
 
-TOKEN = "7403548930:AAHKhlZ54JWZ18I9oKttfKlXrnm7zpQoqe0"
+TOKEN = os.getenv("BOT_TOKEN")
 # Define menu structure based on the provided hierarchy
 menu_structure = {
     "main": {"📚 السنة الأولى": "year1"},
