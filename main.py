@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Call
 from keep_alive import keep_alive
 import os
 import json
-keep_alive()
+
 # استبدل التوكن الخاص بك هنا
 TOKEN = os.getenv("BOT_TOKEN")
 
@@ -179,4 +179,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+    keep_alive()
     main()
