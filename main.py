@@ -1,6 +1,6 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, CallbackContext
-from keep_alive import keep_alive
+
 import os
 import json
 
@@ -179,5 +179,4 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-    keep_alive()
     main()
