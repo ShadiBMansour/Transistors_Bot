@@ -40,7 +40,7 @@
       "chat_id": -1002481160289,
       "message_ids": [414, 415, 416, 417, 418, 419,420, 421, 422, 423, 424, 425]
     },
-    "computers_theory": {
+    "computers_theoretical": {
       "type": "forward",
       "chat_id": -1002481160289,
       "message_ids": [58,59,60,61,62,63]
@@ -82,7 +82,7 @@
       "chat_id": -1002481160289,
       "message_ids": [444,446,447,448,449,450,451,452]
     },
-    "programming1_theory":{
+    "programming1_theoretical":{
       "type": "forward",
       "chat_id": -1002481160289,
       "message_ids": [45,46,47,48,49,50,51,52,53]
@@ -132,9 +132,9 @@
       "type": "file",
       "files": ["programming2_practical_laporatores"]
     },
-    "programming2_theory":{
+    "programming2_theoretical":{
       "type": "file",
-      "files": ["programming2_theory"]
+      "files": ["programming2_theoretical"]
     },"programming2_questionspatterns":{
       "type": "file",
       "files": ["programming2_questionspatterns"]
@@ -147,9 +147,9 @@
       "type": "file",
       "files": ["algebra1_practical"]
     },
-    "algebra1_theory": {
+    "algebra1_theoretical": {
       "type": "file",
-      "files": ["algebra1_theory"]
+      "files": ["algebra1_theoretical"]
     },
     "algebra1_questions": {
       "type": "file",
@@ -159,9 +159,9 @@
       "type": "file",
       "files": ["algebra2_practical"]
     },
-    "algebra2_theory": {
+    "algebra2_theoretical": {
       "type": "file",
-      "files": ["algebra2_theory"]
+      "files": ["algebra2_theoretical"]
     },
     "algebra2_questions": {
       "type": "file",
@@ -175,9 +175,9 @@
       "type": "file",
       "files": ["analysis1_questions"]
     },
-    "analysis1_theory": {
+    "analysis1_theoretical": {
       "type": "file",
-      "files": ["analysis1_theory"]
+      "files": ["analysis1_theoretical"]
     },
     "analysis2_practical": {
       "type": "file",
@@ -187,9 +187,9 @@
       "type": "file",
       "files": ["analysis2_questions"]
     },
-    "analysis2_theory": {
+    "analysis2_theoretical": {
       "type": "file",
-      "files": ["analysis2_theory"]
+      "files": ["analysis2_theoretical"]
     },
     "physics_questions": {
       "type": ["file"],

@@ -87,7 +87,7 @@ for subject in subjects:
         menu_structure[subject] = {
             "📂 عملي TD": f"{subject}_practical_td",
             "🧪 عملي مخابر": f"{subject}_practical_laporatores",
-            "📖 النظري": f"{subject}_theory",
+            "📖 النظري": f"{subject}_theoretical",
             # "❓ الأسئلة": f"{subject}_questions",
             "❓ نماذج دورات": f"{subject}_questionspatterns",
             "🔙 رجوع": "semester1" if subject == "programming1" else "semester2",
@@ -95,14 +95,14 @@ for subject in subjects:
     elif subject == "computers":
         menu_structure[subject] = {
             "📂 العملي": f"{subject}_practical",
-            "📖 النظري": f"{subject}_theory",
+            "📖 النظري": f"{subject}_theoretical",
             #"❓ الأسئلة": f"{subject}_questions",
             "🔙 رجوع": "semester1",
         }
     else:
         menu_structure[subject] = {
             "📂 العملي": f"{subject}_practical",
-            "📖 النظري": f"{subject}_theory",
+            "📖 النظري": f"{subject}_theoretical",
             "❓ الأسئلة": f"{subject}_questions",
             "🔙 رجوع": "semester1" if "1" in subject else "semester2",
         }
