@@ -1,5 +1,6 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, CallbackContext
+import sys
 
 import os
 import json
@@ -7,7 +8,12 @@ import json
 # استبدل التوكن الخاص بك هنا
 TOKEN = os.getenv("BOT_TOKEN")
 
+#
+def restart_bot():
+    os.execv(sys.executable, ['python'] + sys.argv)
+
 # تحميل ملف JSON
+
 with open("content_map.json", encoding="utf-8") as f:
     content_map = json.load(f)
 
@@ -170,6 +176,8 @@ async def menu_navigation(update: Update, context: CallbackContext):
     else:
         await query.message.reply_text("⚠️ هذا الخيار غير مدعوم أو غير معروف.")
 
+
+
 # تشغيل البوت
 def main():
     app = Application.builder().token(TOKEN).build()
@@ -177,6 +185,9 @@ def main():
     app.add_handler(CallbackQueryHandler(menu_navigation, pattern=".*"))
     print("✅ البوت يعمل الآن...")
     app.run_polling()
-
+   
 if __name__ == "__main__":
+    
     main()
+    restart_bot()
+    
