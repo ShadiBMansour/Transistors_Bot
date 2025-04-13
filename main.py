@@ -1,6 +1,6 @@
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, CallbackContext
-import sys
+
 
 import os
 import json
@@ -8,9 +8,6 @@ import json
 # استبدل التوكن الخاص بك هنا
 TOKEN = os.getenv("BOT_TOKEN")
 
-#
-def restart_bot():
-    os.execv(sys.executable, ['python'] + sys.argv)
 
 # تحميل ملف JSON
 
@@ -189,5 +186,5 @@ def main():
 if __name__ == "__main__":
     
     main()
-    restart_bot()
+
     
