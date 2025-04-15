@@ -144,12 +144,14 @@
       "files": ["programming2_questions"]
     },
     "algebra1_practical": {
-      "type": "file",
-      "files": ["algebra1_practical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [458]
     },
     "algebra1_theoretical": {
-      "type": "file",
-      "files": ["algebra1_theoretical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [456]
     },
     "algebra1_questions": {
       "type": "file",
@@ -168,16 +170,19 @@
       "files": ["algebra2_questions"]
     },
     "analysis1_practical": {
-      "type": "file",
-      "files": ["analysis1_practical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [460]
     },
     "analysis1_questions": {
-      "type": "file",
-      "files": ["analysis1_questions"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [462]
     },
     "analysis1_theoretical": {
-      "type": "file",
-      "files": ["analysis1_theoretical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [464]
     },
     "analysis2_practical": {
       "type": "file",
@@ -192,9 +197,9 @@
       "files": ["analysis2_theoretical"]
     },
     "physics_questions": {
-      "type": ["file"],
-      
-      "files": ["physics_questions"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [466]
     },
     "circuits_lectures":{
       "type": "file",
