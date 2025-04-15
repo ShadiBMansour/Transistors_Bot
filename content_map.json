@@ -162,8 +162,9 @@
       "files": ["algebra2_practical"]
     },
     "algebra2_theoretical": {
-      "type": "file",
-      "files": ["algebra2_theoretical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [472,473]
     },
     "algebra2_questions": {
       "type": "file",
@@ -193,8 +194,9 @@
       "files": ["analysis2_questions"]
     },
     "analysis2_theoretical": {
-      "type": "file",
-      "files": ["analysis2_theoretical"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [469]
     },
     "physics_questions": {
       "type": "forward",
@@ -202,8 +204,9 @@
       "message_ids": [466]
     },
     "circuits_lectures":{
-      "type": "file",
-      "files": ["circuits_lectures"]
+      "type": "forward",
+      "chat_id": -1002481160289,
+      "message_ids": [476]
     },
     "circuits_questions":{
       "type": "file",
