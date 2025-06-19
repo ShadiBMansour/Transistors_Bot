@@ -6,7 +6,7 @@ import json
 # استبدل التوكن الخاص بك هنا
 TOKEN = os.getenv("BOT_TOKEN")
 
-# test
+# test2
 # تحميل ملف JSON
 
 with open("content_map.json", encoding="utf-8") as f:
